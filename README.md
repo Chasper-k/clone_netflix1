@@ -14,7 +14,7 @@ Inclui um **banner principal** e um **carrossel de filmes/séries** implementado
 
 ---
 
-### Estrutura do Projeto
+## 📁 Estrutura de pastas
 
 net_clone/    
 ├── index.html  
