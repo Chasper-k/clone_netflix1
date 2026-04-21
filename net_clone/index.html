@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="style/responsive.css">
+
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+
+    <title>NETINHA CLONE</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h2 class="logo">NETFLIX</h2>
+            <nav>
+                <a href="#">Início</a>
+                <a href="#">Séries</a>
+                <a href="#">Filmes</a>
+                <a href="#">Jogos</a>
+                <a href="#">Bombando</a>
+                <a href="#">Minha lista</a>
+                <a href="#">Navegar por idiomas</a>
+            </nav>
+        </div>
+
+        <div class="header-banner">
+            <h3 class="title">HOUSE <span class="flag"></span> of CARDS</h3>
+            <p class="description">Traído pela Casa Branca, o congressista Frank Underwood embarca em uma jornada implacável para chegar ao poder. Chantagem, sedução e ambição são suas maiores armas.</p>
+           
+            <div class="buttons">
+                <button role="button" class="button-1"> 
+                    <i class="fa-solid fa-play"></i> Assistir
+                </button>
+                <button role="button" class="button-2">
+                    <i class="fa-solid fa-circle-info"></i> Mais informações
+                </button> 
+            </div>
+        </div>
+    </header>
+<div class="carousel-movies">
+  <div class="swiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><img class="box-movie" src="assets/mini1.jpg" alt="mini1"></div>
+      <div class="swiper-slide"><img class="box-movie" src="assets/mini2.jpg" alt="mini2"></div>
+      <div class="swiper-slide"><img class="box-movie" src="assets/mini3.jpg" alt="mini3"></div>
+      <div class="swiper-slide"><img class="box-movie" src="assets/mini4.jpg" alt="mini4"></div>
+      <div class="swiper-slide"><img class="box-movie" src="assets/mini5.jpg" alt="mini5"></div>
+      <div class="swiper-slide"><img class="box-movie" src="assets/mini6.jpg" alt="mini6"></div>
+      <div class="swiper-slide"><img class="box-movie" src="assets/mini7.jpg" alt="mini7"></div>
+      <div class="swiper-slide"><img class="box-movie" src="assets/mini8.jpg" alt="mini8"></div>
+      <div class="swiper-slide"><img class="box-movie" src="assets/mini9.jpg" alt="mini9"></div>
+      <div class="swiper-slide"><img class="box-movie" src="assets/mini10.jpg" alt="mini10"></div>
+    </div>
+
+    <!-- Botões de navegação -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+
+    <!-- Paginação -->
+    <div class="swiper-pagination"></div>
+  </div>
+</div>
+
+<!-- Swiper CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<script>
+  const swiper = new Swiper('.swiper', {
+    loop: true,
+    slidesPerView: 5,
+    spaceBetween: 10,
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev'
+    },
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true
+    },
+    breakpoints: {
+      0: { slidesPerView: 1 },
+      600: { slidesPerView: 3 },
+      1000: { slidesPerView: 5 }
+    }
+  });
+</script>
+
+    <script src="https://kit.fontawesome.com/88eace6d2e.js" crossorigin="anonymous"></script>
+
+</body>
+</html>

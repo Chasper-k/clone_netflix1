@@ -1,0 +1,4 @@
+Infelizmente o owlcarousel simplesmente não pegou, não importando o que fosse feito.
+Considerando o objetivo de ter um carrossel funcional, decidi ir com outro formato. 
+
+XD tmj
