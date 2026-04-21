@@ -14,13 +14,15 @@ Inclui um **banner principal** e um **carrossel de filmes/séries** implementado
 
 ---
 
-## 📂 Estrutura de pastas
-```net_clone/```
-```│── index.html```
-```│── assets/        # imagens (capa, miniaturas)```
-```│── style/         # estilos principais```
-```│   ├── main.css```
-```│   ├── responsive.css``` 
+### Estrutura do Projeto
+
+net_clone/    
+├── index.html  
+├── assets/        # imagens (capa, miniaturas)  
+├── style/         # estilos principais  
+│   ├── main.css  
+│   └── responsive.css   
+
 
 
 ---
